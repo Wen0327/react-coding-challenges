@@ -1,4 +1,36 @@
 .dark-mode {
+  //
+
+  padding: 10%;
+  justify-content: center;
+  display: flex;
+  
+  
+  box-sizing: content-box;
+
+  &__dark-mode-btn {
+    border: 0;
+    background: transparent;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .buttons > .button {
+    height: 30px;
+    width: 100px;
+  }
+
+
+  //
   background: #121212;
 
   p {
